@@ -1,12 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 Movie Search & Trending App
 
-Currently, two official plugins are available:
+A responsive web app to search and discover movies in real-time, built using **React**, **Tailwind CSS**, **TMDB API**, and **Appwrite**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> 📅 Project built as part of 30-day MERN & placement training (December 2024).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+✅ Search thousands of movies live using TMDB API  
+✅ View top trending movies based on user searches  
+✅ Modern, mobile-friendly UI with Tailwind CSS  
+✅ Real-time update of trending data using Appwrite backend  
+✅ Component-based architecture with React Hooks (`useState`, `useEffect`)
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **API:** TMDB (The Movie Database)
+- **Backend Service:** Appwrite (tracks trending search counts)
+- **Deployment:** Vercel / Netlify
+
+---
+
+## 📦 Installation & Setup
+
+> Make sure you have Node.js and npm installed.
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/your-username/movie-search-trending-app.git
+cd movie-search-trending-app
